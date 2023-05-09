@@ -1,0 +1,292 @@
+[
+  {
+    "form1": [
+      {
+        "title": "Formulier 1",
+        "fieldGroups": [
+          {
+            "groupName": "Groep 1",
+            "fields": [
+              {
+                "name": "Vraag1",
+                "label": "Vraag 1",
+                "type": "textarea",
+                "rules": "required"
+              },
+              {
+                "name": "Vraag2",
+                "label": "Vraag 2",
+                "type": "textarea",
+                "rules": ""
+              },
+              {
+                "name": "Vraag3",
+                "label": "Vraag 3",
+                "type": "textarea",
+                "rules": "required"
+              },
+              {
+                "name": "Vraag4",
+                "label": "Vraag4, geef een cijfer",
+                "type": "radio",
+                "rules": "required",
+                "options": [
+                  "1",
+                  "2",
+                  "3",
+                  "4",
+                  "5",
+                  "6",
+                  "7",
+                  "8",
+                  "9",
+                  "10"
+                ]
+              },
+              {
+                "name": "Vraag5",
+                "label": "Vraag 5, selecteer een optie",
+                "type": "select",
+                "rules": "required",
+                "options": [
+                  "Optie 1",
+                  "Optie 2",
+                  "Optie 3",
+                  "Optie 4",
+                  "Optie 5"
+                ]
+              },
+              {
+                "name": "Vraag6",
+                "label": "Handtekening",
+                "type": "canvas",
+                "rules": "required"
+              },
+              {
+                "name": "Bestand",
+                "label": "PDF toevoegen",
+                "type": "file",
+                "prepend": "mdi-file",
+                "rules": "required"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "form2": [
+      {
+        "title": "Form 2",
+        "fieldGroups": [
+          {
+            "groupName": "Personalia",
+            "fields": [
+              {
+                "name": "Voornaam",
+                "label": "Voornaam",
+                "type": "text",
+                "rules": "required"
+              },
+              {
+                "name": "Tussenvoegsel",
+                "label": "Tussenvoegsel",
+                "type": "text",
+                "rules": ""
+              },
+              {
+                "name": "Achternaam",
+                "label": "Achternaam",
+                "type": "text",
+                "rules": "required"
+              },
+              {
+                "name": "Geslacht",
+                "label": "Geslacht",
+                "type": "radio",
+                "rules": "required",
+                "options": []
+              },
+              {
+                "name": "Straat",
+                "label": "Straat",
+                "type": "text",
+                "rules": "required"
+              },
+              {
+                "name": "Huisnummer",
+                "label": "Huisnummer",
+                "type": "text",
+                "rules": "required"
+              },
+              {
+                "name": "Postcode",
+                "label": "Postcode",
+                "type": "text",
+                "rules": "required"
+              },
+              {
+                "name": "Plaats",
+                "label": "Plaats",
+                "type": "text",
+                "rules": "required"
+              },
+              {
+                "name": "Land",
+                "label": "Land",
+                "type": "text",
+                "rules": "required"
+              },
+              {
+                "name": "Email",
+                "label": "E-mail",
+                "type": "email",
+                "rules": "required|email"
+              },
+              {
+                "name": "Mobielnummer",
+                "label": "Mobielnummer",
+                "type": "text",
+                "rules": "required"
+              },
+              {
+                "name": "Geboortedatum",
+                "label": "Geboortedatum",
+                "type": "date",
+                "rules": "required"
+              },
+              {
+                "name": "Beroep",
+                "label": "Beroep",
+                "type": "text",
+                "rules": ""
+              }
+            ]
+          },
+          {
+            "groupName": "Algemene Voorwaarden",
+            "fields": [
+              {
+                "name": "Algemene_Voorwaarden",
+                "label": "Akkoord met algemene voorwaarden",
+                "type": "checkbox",
+                "rules": "required",
+                "options": [
+                  "Akkoord"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "form3": [
+      {
+        "title": "Form 3",
+        "fieldGroups": [
+          {
+            "groupName": "Personalia",
+            "fields": [
+              {
+                "name": "Voornaam",
+                "label": "Voornaam",
+                "type": "text",
+                "rules": "required"
+              },
+              {
+                "name": "Tussenvoegsel",
+                "label": "Tussenvoegsel",
+                "type": "text",
+                "rules": ""
+              },
+              {
+                "name": "Achternaam",
+                "label": "Achternaam",
+                "type": "text",
+                "rules": "required"
+              },
+              {
+                "name": "Geslacht",
+                "label": "Geslacht",
+                "type": "radio",
+                "rules": "required",
+                "options": [
+                  "Man",
+                  "Vrouw",
+                  "Anders"
+                ]
+              },
+              {
+                "name": "Straat",
+                "label": "Straat",
+                "type": "text",
+                "rules": "required"
+              },
+              {
+                "name": "Huisnummer",
+                "label": "Huisnummer",
+                "type": "text",
+                "rules": "required"
+              },
+              {
+                "name": "Postcode",
+                "label": "Postcode",
+                "type": "text",
+                "rules": "required"
+              },
+              {
+                "name": "Plaats",
+                "label": "Plaats",
+                "type": "text",
+                "rules": "required"
+              },
+              {
+                "name": "Land",
+                "label": "Land",
+                "type": "text",
+                "rules": "required"
+              },
+              {
+                "name": "Email",
+                "label": "E-mail",
+                "type": "email",
+                "rules": "required|email"
+              },
+              {
+                "name": "Mobielnummer",
+                "label": "Mobielnummer",
+                "type": "text",
+                "rules": "required"
+              },
+              {
+                "name": "Geboortedatum",
+                "label": "Geboortedatum",
+                "type": "date",
+                "rules": "required"
+              },
+              {
+                "name": "Beroep",
+                "label": "Beroep",
+                "type": "text",
+                "rules": ""
+              }
+            ]
+          },
+          {
+            "groupName": "Algemene Voorwaarden",
+            "fields": [
+              {
+                "name": "Algemene_Voorwaarden",
+                "label": "Akkoord met algemene voorwaarden",
+                "type": "checkbox",
+                "rules": "required",
+                "options": [
+                  "Akkoord"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
